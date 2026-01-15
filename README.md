@@ -26,12 +26,12 @@ Investigar a relação entre experiências de violência sexual e depressão em 
 ```
 .
 ├── 8IADT - Fase 1 - Tech challenge.pdf      # Descrição do desafio
-├── GeraArquivoReduzido.ipynb                # Filtragem e seleção de variáveis
-├── AnaliseExploratoria.ipynb                # Análise exploratória de dados (EDA)
-├── Regressão_logística_multivariada.ipynb   # Modelo de regressão logística
-├── Random_Forest.ipynb                      # Modelo Random Forest
-├── CATBOOST.ipynb                           # Modelo CatBoost
-├── ComparaModelos.ipynb                     # Comparação de desempenho dos modelos
+├── 1-GeraArquivoReduzido.ipynb                # Filtragem e seleção de variáveis
+├── 2-AnaliseExploratoria.ipynb                # Análise exploratória de dados (EDA)
+├── 3-Regressão_logística_multivariada.ipynb   # Modelo de regressão logística
+├── 4-Random_Forest.ipynb                      # Modelo Random Forest
+├── 5-CATBOOST.ipynb                           # Modelo CatBoost
+├── 6-ComparaModelos.ipynb                     # Comparação de desempenho dos modelos
 ├── Analise_Depressao_Violencia.odt          # Documento de análise e resultados
 ├── Relatório Final.pdf                      # Relatório final
 └── README.md                                # Este arquivo
