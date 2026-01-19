@@ -1,5 +1,8 @@
 # Análise de Depressão e Violência Sexual em Mulheres Brasileiras
 
+**Instituição:** FIAP - Pós-Graduação em Inteligência Artificial para Devs  
+**Disciplina:** Tech Challenge IADT - Fase 1
+
 ## Sobre o Projeto
 
 Este projeto realiza uma análise exploratória e preditiva da relação entre depressão e violência sexual em mulheres brasileiras, utilizando dados da **Pesquisa Nacional de Saúde (PNS) 2019** do IBGE. O estudo investiga como experiências de violência sexual se correlacionam com diagnósticos de depressão e atendimento psicológico.
@@ -25,16 +28,15 @@ Investigar a relação entre experiências de violência sexual e depressão em 
 
 ```
 .
-├── 8IADT - Fase 1 - Tech challenge.pdf      # Descrição do desafio
-├── 1-GeraArquivoReduzido.ipynb                # Filtragem e seleção de variáveis
-├── 2-AnaliseExploratoria.ipynb                # Análise exploratória de dados (EDA)
-├── 3-Regressão_logística_multivariada.ipynb   # Modelo de regressão logística
-├── 4-Random_Forest.ipynb                      # Modelo Random Forest
-├── 5-CATBOOST.ipynb                           # Modelo CatBoost
-├── 6-ComparaModelos.ipynb                     # Comparação de desempenho dos modelos
-├── Analise_Depressao_Violencia.odt          # Documento de análise e resultados
-├── Relatório Final.pdf                      # Relatório final
-└── README.md                                # Este arquivo
+├── 8IADT - Fase 1 - Tech challenge.pdf         # Descrição do desafio
+├── 1-GeraArquivoReduzido.ipynb                 # Filtragem e seleção de variáveis
+├── 2-AnaliseExploratoria.ipynb                 # Análise exploratória de dados (EDA)
+├── 3-Regressão_logística_multivariada.ipynb    # Modelo de regressão logística
+├── 4-Random_Forest.ipynb                       # Modelo Random Forest
+├── 5-CATBOOST.ipynb                            # Modelo CatBoost
+├── 6-ComparaModelos.ipynb                      # Comparação de desempenho dos modelos
+├── Relatório Final.pdf                         # Relatório final
+└── README.md                                   # Este arquivo
 ```
 
 ## 📋 Variáveis do Estudo
@@ -185,14 +187,14 @@ pip install pandas numpy matplotlib seaborn scikit-learn catboost imbalanced-lea
 
 1. **Gerar Dataset Reduzido**
    ```bash
-   jupyter notebook GeraArquivoReduzido.ipynb
+   jupyter notebook 1_GeraArquivoReduzido.ipynb
    ```
    - Certifique-se de ter o arquivo `pns-2019.csv` no mesmo diretório
    - Este notebook gerará `pns-2019_saude_mulher_filtrado.csv`
 
 2. **Análise Exploratória**
    ```bash
-   jupyter notebook AnaliseExploratoria.ipynb
+   jupyter notebook 2_AnaliseExploratoria.ipynb
    ```
    - Explore as distribuições e correlações
    - Gere visualizações dos dados
@@ -200,21 +202,27 @@ pip install pandas numpy matplotlib seaborn scikit-learn catboost imbalanced-lea
 3. **Treinar Modelos**
    ```bash
    # Regressão Logística
-   jupyter notebook Regressão_logística_multivariada.ipynb
+   jupyter notebook 3_Regressão_logística_multivariada.ipynb
    
    # Random Forest
-   jupyter notebook Random_Forest.ipynb
+   jupyter notebook 4_Random_Forest.ipynb
    
    # CatBoost
-   jupyter notebook CATBOOST.ipynb
+   jupyter notebook 5_CATBOOST.ipynb
    ```
 
 4. **Comparar Modelos**
    ```bash
-   jupyter notebook ComparaModelos.ipynb
+   jupyter notebook 6_ComparaModelos.ipynb
    ```
    - Analise métricas de desempenho
    - Compare resultados entre modelos
+
+## 🎥 Vídeo Explicativo do Projeto
+
+Para uma visão geral rápida e intuitiva sobre o funcionamento do projeto, assista ao vídeo explicativo no link abaixo:
+
+[https://youtu.be/YgazGCn7200](https://youtu.be/YgazGCn7200)
 
 ## 🔐 Considerações Éticas
 
@@ -239,7 +247,17 @@ Este projeto trabalha com dados sensíveis sobre violência sexual e saúde ment
 
 - Dicionário de variáveis da PNS 2019
 
-## 👥 Contribuições
+## 👥 Equipe
+
+| Nome | RM |
+|------|-----|
+| Luis Perrone | RM 369271 |
+| Tiago Lopes | RM 369151 |
+| João Pires | RM 369186 |
+| Karina Felix | RM 369763 |
+| Rodrigo Raiche | RM 367254 |
+
+## 💬 Contribuições
 
 Contribuições são bem-vindas! Para contribuir:
 
@@ -249,10 +267,16 @@ Contribuições são bem-vindas! Para contribuir:
 4. Push para a branch (`git push origin feature/NovaFeature`)
 5. Abra um Pull Request
 
+## 📧 Contato
+
+Para questões sobre o projeto, entre em contato através de:
+- Issues do GitHub
 
 ## 📄 Licença
 
-Este projeto é de código aberto e está disponível para uso educacional e de pesquisa. Os dados originais estão sujeitos aos termos de uso do IBGE.
+**MIT License** - Código aberto para fins educacionais e de pesquisa.
+
+Os dados originais estão sujeitos aos termos de uso do IBGE.
 
 ---
 
