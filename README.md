@@ -10,7 +10,7 @@ Este projeto realiza uma análise exploratória e preditiva da relação entre d
 ## 📊 Fonte dos Dados
 
 **Base de Dados:** Pesquisa Nacional de Saúde 2019 (PNS-2019) - IBGE
-- **Arquivo Original:** pns-2019.csv (microdados brutos)
+- **Arquivo Original:** dataset.zip (microdados brutos)
 - **População Alvo:** Mulheres (filtrado por sexo feminino)
 - **Amostra:** 144.940 registros de mulheres com 15 anos ou mais
 - **Variáveis Originais:** Mais de 3.000 variáveis coletadas
